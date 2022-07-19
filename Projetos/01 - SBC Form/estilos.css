@@ -1,0 +1,194 @@
+*{
+	/*outline:0.5px solid #000;*/
+	margin:2px;
+}
+.fix{
+	clear:both;
+}
+.TxtFormat{
+	font-size:13px;
+	font-weight:bold;
+	width:100px;
+	display:inline-block;
+	position:relative;
+	top:-11px;
+}
+.clickArea1{
+	display:inline-block;
+	height:20px;
+	width:27px;
+	position:relative;
+	top:-0.5px;
+	right:-4px;
+}
+.clickArea2{
+	display:inline-block;
+	height:20px;
+	width:27px;
+	position:relative;
+	top:-0.5px;
+	right:-6px;
+}
+.clickArea3{
+	display:inline-block;
+	height:21px;
+	width:26px;
+	position:relative;
+	top:-0.5px;
+	right:-7px;
+}
+.clickArea4{
+	display:block;
+	position:relative;
+	height:21px;
+	width:21px;
+	top:-0.5px;
+	left:0px;
+}
+
+body{
+	background:#fff;
+	font-family:"Arial";
+}
+
+#headiv1, #headiv2, #headiv3{
+	height:23px;
+	position:absolute;
+	border-radius:3px;
+	background:rgba(255,255,255,0.7);
+	
+}
+#headiv1{
+	bottom:1px;
+	right:1px;
+	width:79px;
+}
+#headiv2{
+	bottom:1px;
+	right:90px;
+	width:160px;
+}
+#headiv3{
+	bottom:1px;
+	right:260px;
+	width:25px;
+}
+#imgHome{
+	height:21px;
+	width:21px;
+	position:relative;
+	top:-2px;
+	left:-2px;
+}
+#imgEua{
+	height:20px;
+	width:27px;
+	position:relative;
+	top:-2px;
+	right:2px;
+	display:inline-block;
+}
+#imgBr{
+	height:20px;
+	width:27px;
+	position:relative;
+	top:-2px;
+	left:-2px;
+	display:inline-block;
+}
+#imgPfp{
+	height:21px;
+	width:26px;
+	position:relative;
+	left:-2px;
+	top:-2px;
+}
+
+header, section, footer{
+	display:flex;
+}
+
+section{
+	display:block;
+}
+section div{
+	margin-top:15px;
+	padding:5px;
+	background-image: linear-gradient(to bottom, #fff, #e5e5e5);
+	border-radius:7px;
+	border:1px solid #ddd;
+}
+
+header{
+	background-image:linear-gradient(to bottom, #F7C600, #F9e800);
+	height:100px;
+	border-radius:3px;
+	box-shadow:4px 4px 5px #888;
+	position:relative;
+}
+header span{
+
+}
+
+#btEduroam{
+	float:left;
+	margin-top:-15px;
+	background-image: linear-gradient(to bottom, #fff, #e5e5e5);
+	border:1px solid #888;
+}
+#wr_eduroam p{
+	position:relative;
+	top:-15px;
+}
+
+h1{
+	color:#666;
+	font-size:14pt;
+	padding-left:10px;
+	position:relative;
+	top:-20px;
+}
+
+#btEnviar{
+	border:1px solid #888;
+	width:70px;
+	height:35px;
+	border-radius:3px;
+	font-size:18px;
+	margin:10px 0px 10px 15px;
+	background-image: linear-gradient(to bottom, #fff, #e5e5e5);
+	
+}
+
+form{
+	font-size:12pt;
+}
+
+footer{
+	background-image:linear-gradient(to bottom, #F7C600, #F9e800);
+	border-radius:7px;
+	box-shadow:4px 4px 5px #888;
+	position:relative;
+	height:30px;
+}
+footer div{
+	position:relative;
+	top:45px;	
+}
+
+.labelStyle{
+	font-size:13px;
+	font-weight:bold;
+	margin:5px;
+	padding-left:150px;
+	padding-right:5px;
+}
+.labelSt{
+	font-size:13px;
+}
+.labelSt2{
+	font-size:13px;
+	padding:0px 5px 0px 150px;
+}
+
+

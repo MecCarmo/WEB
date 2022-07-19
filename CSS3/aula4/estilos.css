@@ -1,0 +1,11 @@
+body{
+	background-color:#000;
+	background-image:url(imagem.jpg), url(imagem2.jpg);
+	background-size:200px, 305px;
+	background-repeat:no-repeat, repeat;
+	background-position:200px 200px;
+}
+
+p{
+	background-image:ulr(imagem.jpg);
+}

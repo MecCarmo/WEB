@@ -1,0 +1,23 @@
+section{
+	border:3px solid #f00;
+	height:200px;
+	
+	display:flex;
+	
+	/*Quebra de linha*/
+	flex-wrap:nowrap;
+	
+	/*Alinhamento horizontal : flex-start - center - flex-end*/
+	justify-content:flex-start;
+	
+	/*Alinha vertical : flex-start - center - flex-end*/
+	align-items:flex-start;
+	
+	/*Direção dos elementos : row - column | reverse*/
+	flex-direction:
+}
+
+div{
+	border:1px solid #000;
+	width:100px;
+}

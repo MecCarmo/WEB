@@ -1,0 +1,45 @@
+﻿[UpArrow]
+Path=Stickman Alternate.ani
+
+[Wait]
+Path=Stickman Busy.ani
+
+[SizeNWSE]
+Path=Stickman Diagonal 1.ani
+
+[SizeNESW]
+Path=Stickman Diagonal 2.ani
+
+[NWPen]
+Path=Stickman Handwriting.ani
+
+[Help]
+Path=Stickman Help.ani
+
+[SizeWE]
+Path=Stickman Horizontal.ani
+
+[Hand]
+Path=Stickman Link.ani
+
+[Arrow]
+Path=Stickman Main.ani
+
+[SizeAll]
+Path=Stickman Move.ani
+
+[Crosshair]
+Path=Stickman Precision.ani
+
+[IBeam]
+Path=Stickman Text.ani
+
+[No]
+Path=Stickman Unavailable.ani
+
+[SizeNS]
+Path=Stickman Vertical.ani
+
+[AppStarting]
+Path=Stickman WOB.ani
+

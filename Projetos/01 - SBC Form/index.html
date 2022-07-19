@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="estilos.css">
+		<title>SBC Systems</title>
+	</head>
+
+	<body>
+	
+		<header>
+			<img src="accounts.svg">
+			
+			<div id="headiv1">
+				<a href="#" class="clickArea1"><img src="eua.png" id="imgEua"></a>
+				<a href="#" class="clickArea2"><img src="brasil.png" id="imgBr"></a>
+			</div>
+			
+			<div id="headiv2">
+				<p class="TxtFormat">Login/Cadastro:</p>
+				<a href="#" class="clickArea3"><img src="login.png" id="imgPfp"></a>
+			</div>
+			
+			<div id="headiv3">
+				<a href="#" class="clickArea4"><img src="home.png" id="imgHome"></a>
+			</div>
+		</header>
+		
+		<section>
+		
+			<form action="#" method="get">
+			<div id="info_usr">
+				<h1>Informações do Usuário</h1><br>
+				
+				
+					<span class="labelStyle">Número de Associado</span><br>
+					
+					<label class="labelStyle">Tipo de Cadastro</label>
+					<input type="radio" id="p_fis" name="ftipocad" value="p_fis">
+					<label class="labelSt" for="p_fisica">Pessoa Física</label>
+					<input type="radio" id="p_jur" name="ftipocad" value="p_jur">
+					<label class="labelSt" for="p_jur">Pessoa Jurídica</label><br>
+					
+					<label class="labelStyle">Nome</label>
+					<input type="text" name="fnome" size="45"><br>
+					
+					<label class="labelStyle">Data de Nascimento</label>
+					<input type="date" name="fNasc" size="15"><br>
+					
+					<label class="labelStyle">Nacionalidade</label>
+					<select id="Nacionalidade" name="fNac" id="fNac"><br>
+			
+							<option value="BR">Brasileiro</option>
+							<option value="IN">Indiano</option>
+							<option value="CN">Canadá</option>
+							<option value="PT">Português</option>
+					</select><br>
+					
+					<label class="labelStyle">CPF..:</label>
+					<input type="text" name="fCpf" size="15"><br>
+					
+					<label class="labelStyle">RG...:</label>
+					<input type="text" name="fRg" size="15"><br>
+					
+					<label class="labelStyle">Gênero</label>
+					<input type="radio" id="g_none" name="genero" value="g_none">
+					<label class="labelSt" for="g_none">Não Especificado</label>
+					<input type="radio" id="g_masc" name="genero" value="g_masc">
+					<label class="labelSt" for="g_masc">Masculino</label>
+					<input type="radio" id="g_fem" name="genero" value="g_fem">
+					<label class="labelSt" for="g_masc">Feminino</label>
+					<input type="radio" id="g_cnpj" name="genero" value="g_cnpj">
+					<label class="labelSt" for="g_masc">Não Aplicável</label><br>
+					
+					<label class="labelStyle">Instituição/Universidade</label>
+					<input type="text" name="fInst" size="29">
+					
+				
+			</div>
+			
+			
+			<div id="info_usr_login">
+				<h1>Informações de login do Usuário</h1><br><br>
+				
+					
+					<label class="labelStyle">E-mail..................:</label>
+					<input type="e-mail" name="fEmail" size="14"><br>
+					<label class="labelStyle">Senha..................:</label>
+					<input type="password" name="fSenha" size="14"><br>
+					<label class="labelStyle">Confirme a senha</label>
+					<input type="password" name="fSenha" size="14"><br>
+					<label class="labelStyle">Você gostaria de receber e-mails da SBC?</label>
+					<input type="radio" name="fNewsletter" id="news_sim">
+					<label class="labelSt" for="news_sim">Sim</label>
+					<input type="radio" name="fNewsletter" id="news_nao">
+					<label class="labelSt" for="news_nao">Não</label>
+					
+				
+			</div>
+
+			
+			<div id="wr_eduroam">
+				<h1>Acesso a rede sem-fio Eduroam</h1><br><br>
+				<input type="button" value="Ativar acesso a rede sem-fio Eduroam" id="btEduroam">
+				<p class="labelSt">A ativação só está disponível para pessoas físicas associadas SBC em dia com suas anuidades</p>
+			
+			</div>
+			
+			<div id="end" class="fix">
+			
+				
+					<h1>Informações do Endereço</h1><br>
+					<label class="labelStyle">País...:</label>
+					<select id="Pais" name="fPais"><br>
+						
+							<option value="BR">Brasil</option>
+							<option value="PT">Portugal</option>
+							<option value="CN">Canadá</option>
+							<option value="IN">India</option>
+					</select><br>
+					
+					<label class="labelStyle" >CEP....:</label>
+					<input type="text" name="fCep" size="5"><br>
+					<label class="labelStyle">Cidade</label>
+					<input type="text" name="fCidade" size="15"><br>
+					<label class="labelStyle">Estado</label>
+					<input type="text" name="fEstado" size="15"><br>
+					<label class="labelStyle">Rua....:</label>
+					<input type="text" name="fRua" size="15"><br>
+					<label class="labelStyle">Número</label>
+					<input type="text" name="fNum" size="14"><br>
+					<label class="labelSt2">Complemento</label>
+					<input type="text" name="fComp" size="10"><br>
+					<label class="labelSt2">Bairro</label>
+					<input type="text" name="fBairro" size="17"><br>
+				
+			</div>
+			
+			
+			<div id="contato">
+				<h1>Informações de Contato por Telefone</h1><br>
+				<label class="labelSt2">Telefone Fixo</label>
+				<input type="tel" name="fTel"><br>
+				<label class="labelSt2">Número Auxiliar(Celular/Fax)</label>
+				<input type="tel" name="fAuxTel" size="8"></br>
+			
+			
+			</div>
+						
+			<input type="submit" value="Enviar" id="btEnviar">
+		
+			</form>
+		</section>
+		
+		<div id="hfooter">
+		
+		</div>
+		
+		
+		<footer>
+			
+			<div id="footer1">
+				<span class="labelSt"><strong>Sociedade Brasileira de Computação(SBC)</strong></span>
+				<span class="labelSt"><strong>Portal:</strong><a href="#">http://sbc.org.com.br/</a></span>
+			</div>
+			
+			<div id="footer2">
+				<span class="labelSt"><strong>Contato do Suporte</strong></span>
+				<span class="labelSt"><strong>Telefone:</strong> +55(51)3308-6835 - <strong>Fax:</strong> +55(51)3308-7142</span>
+				<span class="labelSt"><strong>E-mail:</strong><a href="#">sbc@sbc.org.br</a></span>
+			</div>
+		</footer>
+	
+	</body>
+
+</html>

@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Aula 37 - Imagem de Sobreposição</title>
+		<script type ="text/javascript">
+		
+			//pré-carregando imagens para prevenir lag
+			function preload(){
+				imgs=Array('exmplo1.jpg','exmplo2.jpg','exmplo3.jpg');
+				imgQtde=imgs.length;
+				for(i=0;i<imgQtde;i++){
+					var preloadimg=new Image();
+					preloadimg.src=imgs[i];
+				}
+		
+			}
+			//troca a imagem selecionada, on mouse over
+			function troca(obj,imgTroca){
+				obj.src=imgTroca;
+			}
+			
+		
+		
+		</script>
+	</head>
+	
+	<body onload="preload()">
+	
+		<img src="btexmplo1.jpg" id="bt1" onmouseover="troca(this,'btexmplo2.jpg')" onmouseout="troca(this,'btexemplo1')"/>
+		<img src="btexemplo1.jpg" id="bt2" onmouseover="troca(this,'btexmplo2.jpg')" onmouseout="troca(this,'btexemplo1')"/>
+		<img src="btex1.jpg" id="bt3" onmouseover="troca(this,'btexmplo2.jpg')" onmouseout="troca(this,'btexemplo1')"/>
+	
+	</body>
+</html>
+	
